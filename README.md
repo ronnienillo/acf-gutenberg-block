@@ -1,31 +1,73 @@
-=== ACF Gutenberg Block ===
+# ACF Gutenberg Block
 
-Contributors: Ronnie Nillo
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+A modern WordPress theme starter designed for creating custom Gutenberg blocks with **Advanced Custom Fields (ACF)** and a **Vite-powered build system** for optimized CSS and JS.
 
-Requires at least: 4.5
-Tested up to: 5.4
-Requires PHP: 5.6
-Stable tag: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
+---
 
-A starter theme called ACF Gutenberg Block.
+## 🧩 Overview
 
-== Description ==
+**ACF Gutenberg Block** is a developer-friendly WordPress theme starter.  
+It combines the flexibility of **ACF** (Advanced Custom Fields) with the speed of **Vite** — giving you an efficient workflow for modern WordPress development.
 
-Wordpress based theme development starter with vite for purging and minifying css and js
+Perfect for developers who want to build custom Gutenberg blocks or lightweight WordPress themes with a clean setup.
+
+---
+
+## ✨ Features
+
+- ⚙️ Full ACF (Advanced Custom Fields) integration  
+- 🚀 Vite for fast builds and hot module replacement (HMR)  
+- 🧹 Automatic CSS/JS purging and minification  
+- 🎨 Supports SCSS and PostCSS  
+- 🧩 Gutenberg-ready structure  
+- 🌐 Translation-ready  
+- 🧱 Based on [Underscores (_s)](https://underscores.me/) for a clean foundation  
+
+---
+
+## 🛠️ Installation
+
+1. In your WordPress admin panel, go to **Appearance → Themes → Add New**.  
+2. Click **Upload Theme**, then choose the `.zip` file for this theme.  
+3. Click **Install Now** and then **Activate**.  
+4. (Optional) Install and activate **ACF Pro** for full block-building capabilities.
+
+---
+
+## 🧰 Development Setup (Optional)
+
+If you want to edit or extend the theme:
+
+```bash
+# Install dependencies
+npm install
+
+# Auto-rebuild during development
+npm run watch 
+
+# Minifies JS and SCSS
+npm run build 
+
+# Removes unused CSS classes
+npm run purge 
+
+# Or do both
+npm run build && npm run purge
 
 
-== Installation ==
 
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
+## 🧾 Requirements
+
+WordPress 4.5+
+PHP 7.2+
+Node.js 20+ (for development mode)
+ACF or ACF Pro plugin
 
 
+## 🧑‍💻 Author
 
-== Credits ==
+Ronnie Nillo
+📧 ronnienillojobs@gmail.com
+🌐 http://ronnienillo.github.io/
 
-* Based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
-* normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2018 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
+
