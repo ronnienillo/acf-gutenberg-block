@@ -11,8 +11,8 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
+	<footer id="colophon" class="site-footer py-5">
+		<div class="container py-lg-5">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'acf-gutenberg-block' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */

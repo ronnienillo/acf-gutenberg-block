@@ -211,6 +211,22 @@ function my_acf_blocks_init() {
 				wp_enqueue_script('hero-block-editor-scripts', get_template_directory_uri() . '/acf_blocks/hero/hero.min.js');
 			},
         ));
+
+		// Post Loop Block
+		acf_register_block_type([
+			'name'              => 'post-loop',
+			'title'             => __('Post Loop'),
+			'description'       => __('Displays a loop of all posts.'),
+			'render_template'   => 'template-parts/blocks/post-loop/post-loop.php',
+			'category'          => 'formatting',
+			'icon'              => 'list-view',
+			'keywords'          => ['posts', 'loop', 'acf'],
+			'enqueue_assets' => function(){
+				// Enqueue Post Loop block styles in editor
+				wp_enqueue_style('post-loop-block-editor-styles', get_template_directory_uri() . '/acf_blocks/post-card/post-card-style.min.css');
+			},
+		]);
+		
     }
 }
 
