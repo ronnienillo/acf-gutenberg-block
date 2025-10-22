@@ -1,0 +1,31 @@
+{
+  "name": "acf-gutenberg-block",
+  "version": "1.0.0",
+  "description": "WordPress ACF Gutenberg blocks using Vite for SCSS + JS build pipeline",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "purge": "purgecss --config purgecss.config.js"
+  },
+  "keywords": [
+    "wordpress",
+    "acf",
+    "vite",
+    "scss",
+    "blocks"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "autoprefixer": "^10.4.21",
+    "glob": "^11.0.3",
+    "postcss": "^8.5.6",
+    "purgecss": "^7.0.2",
+    "sass": "^1.93.2",
+    "terser": "^5.44.0",
+    "vite": "^7.1.10"
+  }
+}
