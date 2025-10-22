@@ -72,4 +72,16 @@ npm run build && npm run purge
 - 📧 ronnienillojobs@gmail.com
 - 🌐 http://ronnienillo.github.io/
 
+---
 
+## 🦸 Hero Section Block (ACF Import)
+
+This theme includes a **Hero Section Block** powered by **Advanced Custom Fields (ACF)**.
+
+To enable it:
+
+1. Locate the file `acf-hero-section-export.json` inside the theme (acf-gutenberg-block) folder.  
+2. In your WordPress admin, go to:  
+   **Custom Fields → Tools → Import Field Groups**.  
+3. Click **Choose File**, select `acf-hero-section-export.json`, and then click **Import File**.  
+4. The **Hero Section Block** will now be available inside the Gutenberg editor under “ACF Blocks”.
