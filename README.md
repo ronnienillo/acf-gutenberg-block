@@ -54,6 +54,8 @@ npm run purge
 # Or do both
 npm run build && npm run purge
 
+---
+
 
 
 ## 🧾 Requirements
