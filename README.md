@@ -60,16 +60,16 @@ npm run build && npm run purge
 
 ## 🧾 Requirements
 
-WordPress 4.5+
-PHP 7.2+
-Node.js 20+ (for development mode)
-ACF or ACF Pro plugin
+- WordPress 4.5+
+- PHP 7.2+
+- Node.js 20+ (for development mode)
+- ACF or ACF Pro plugin
 
 
 ## 🧑‍💻 Author
 
-Ronnie Nillo
-📧 ronnienillojobs@gmail.com
-🌐 http://ronnienillo.github.io/
+- Ronnie Nillo
+- 📧 ronnienillojobs@gmail.com
+- 🌐 http://ronnienillo.github.io/
 
 
