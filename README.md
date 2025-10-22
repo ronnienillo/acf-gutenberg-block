@@ -36,6 +36,7 @@ Perfect for developers who want to build custom Gutenberg blocks or lightweight 
 
 ## 🧰 Development Setup (Optional)
 
+
 If you want to edit or extend the theme:
 
 ```bash
@@ -54,8 +55,7 @@ npm run purge
 # Or do both
 npm run build && npm run purge
 
----
-
+```
 
 
 ## 🧾 Requirements
